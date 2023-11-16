@@ -1,0 +1,183 @@
+.navbar{
+    background-color: rgb(0, 0, 0);
+    display: flex; 
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    
+}
+.navbar-toggler{
+    color: white;
+}
+*/ logo {
+    width: 14%;
+    margin-left: 4%;
+}
+nav{
+    /* position: fixed; */
+    
+}
+.navbar-menu{
+    /* color: azure; */
+    /* background-color: antiquewhite; */
+}
+/* .navbar navbar-expand-lg bg-body-tertiary{
+    clear: both;
+
+
+position: fixed;
+    width: 100%; */
+/* } */
+
+
+.logo1 {
+    width: 65%;
+    margin-left: 15%;
+}
+
+.nav-bar {
+    color: white;
+    width: 75%;
+    padding-right: 20%;
+    margin-left: 20%;
+}
+
+.nav-bar1 {
+    display: flex;
+}
+
+.nav-item {
+    list-style: none;
+    margin-left: 0%;
+   
+}
+.navbar-nav{
+    margin-left: 45%;
+   
+}
+.nav-link{
+    color: aliceblue;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: large;
+}
+.rowtext{
+    text-align: center;
+    font-weight: 0%;
+    letter-spacing: normal;
+    /* padding-top: 65%; */
+}
+/* .container text-center{
+    width: 100%;
+} */
+/* .img1{
+    width :33.3%;
+} */
+.image{
+    max-width: 100%; /* Ensures the image doesn't exceed the width of its container */
+    max-height: 100%; /* Ensures the image doesn't exceed the height of its container */
+    display: ock; /* Ensures the image is treated as a block element */
+    margin: auto; /* Centers the image within its container */
+}
+h4{
+    text-align: center;
+}
+body{
+    overflow-x: hidden;
+}
+.footerimg1{
+    width: 100%;
+}
+.footerimg{
+   background-size: cover;
+   margin: 0%;
+   padding: 0%;
+}
+.footerrow{
+    display: flex;
+}
+.footerimg1{
+    width: 100%; 
+}
+footer{
+    background-color: black;
+}
+.footerinner{
+    text-decoration: none;
+    list-style: none;
+    /* width: 100%; */
+}
+.footertext{
+    text-decoration: none;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color:  #bd9408;
+}
+h4{
+    color: #bd9408;
+
+
+}
+.line{
+   
+    width: 100%;
+    height: 1px;
+    padding-bottom: 1px;
+    background-color:rgb(112, 108, 108) ;
+    margin-top: -1vw;
+}
+.footerlogo{
+    width: 100%;
+
+}
+.lastone{
+    height: 100px;
+    color: #bd9408;
+
+}
+.lastone-text{
+
+
+margin-left: 4%;
+}
+.icon{
+    color: #bd9408;
+}
+.footerimg11{
+    width: 100%;
+}
+.icon{
+    margin-right: 3%;
+}
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 280px) {
+    .footerimg1{
+        width: 50%;
+    }
+    .footerlogo{
+        width: 50%;
+
+    }
+    .logo1{
+        width: 50%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
